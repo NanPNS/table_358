@@ -7,12 +7,12 @@ const money =ref(0);
 
 //const travelList =ref (['เกาะช้าง','เกาะสีชัง','เกาะกูด','เกาะล้าน','เกาะพีพี'])
 const travelList = ref ([
-{name:'Forest_Bake', price : 60 , img : "img/Forest_Bake.png" } ,
-{name:'Naturetalk', price : 60, img :"img/Naturetalk.png"}, 
-{name:'123_Glamp' , price :80, img :"img/123_Glamp.png"},
-{name:'Magokoro', price : 80, img :"img/Magokoro_Teahouse.png"},
-{name:'Lamour_cafe ' , price : 40, img :"img/Lamour_cafe.png"},
-{name:'Yelloo ' , price : 80, img :"img/Yelloo.png"}
+{name:'Forest_Bake', price : 60 , img : "src/img/Forest_Bake.png" } ,
+{name:'Naturetalk', price : 60, img :"src/img/Naturetalk.png"}, 
+{name:'123_Glamp' , price :80, img :"src/img/123_Glamp.png"},
+{name:'Magokoro', price : 80, img :"src/img/Magokoro_Teahouse.png"},
+{name:'Lamour_cafe ' , price : 40, img :"src/img/Lamour_cafe.png"},
+{name:'Yelloo ' , price : 80, img :"src/img/Yelloo.png"}
 ]);
 
 //เก็บ list การจอง 
