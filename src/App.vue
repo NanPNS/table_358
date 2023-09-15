@@ -7,12 +7,12 @@ const money =ref(0);
 
 //const travelList =ref (['เกาะช้าง','เกาะสีชัง','เกาะกูด','เกาะล้าน','เกาะพีพี'])
 const travelList = ref ([
-{name:'Forest_Bake', price : 60 , img : "img/Forest_Bake.png" } ,
-{name:'Naturetalk', price : 60, img :"img/Naturetalk.png"}, 
-{name:'123_Glamp' , price :80, img :"img/123_Glamp.png"},
-{name:'Magokoro', price : 80, img :"img/Magokoro_Teahouse.png"},
-{name:'Lamour_cafe ' , price : 40, img :"img/Lamour_cafe.png"},
-{name:'Yelloo ' , price : 80, img :"img/Yelloo.png"}
+{name:'Forest_Bake', price : 60 , img : "https://scontent.fbkk29-9.fna.fbcdn.net/v/t1.15752-9/377108552_1357544768519409_6045762062999803227_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEY87GR80uTibpAn3bUD4cwepcyRzpivJ96lzJHOmK8nyzdZ0ZxztXq2zvnvoCF5i0ClLctZbq1EHODq_nk6rqr&_nc_ohc=k8D0P3NYfoEAX9UKTRi&_nc_ht=scontent.fbkk29-9.fna&oh=03_AdSO8tKFbv_YGXxrJ1OM6SAaa_PLwF87NVkX976RwV4hig&oe=652B69BD" } ,
+{name:'Naturetalk', price : 60, img :"https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/377107626_276872965283076_8384311021036023195_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGT6rf6A4R3ZbpnENBZ84WZtAtAnKUDAHi0C0CcpQMAeFmGk6OAjucqgSH1wLNjrXcbnSR-y49VbMlaOJU0h3na&_nc_ohc=h8SpNeGZPa4AX-p9-QB&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdRdTj6qvO-H2tEiZmAeyru1QOyY95jXkptriHYIuPWftw&oe=652B7017"}, 
+{name:'123_Glamp' , price :80, img :"https://scontent.fbkk29-1.fna.fbcdn.net/v/t1.15752-9/377104980_1281041105938203_3455264905139293862_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGfR5n4-PLMmikyrNrD_11IHlaQ7I77O5weVpDsjvs7nEag7EYQylGzCgLad2Vu_Q_KgXs8D7WwnMu0wDD0nArP&_nc_ohc=GINzQ3eYAw8AX9Ykij8&_nc_ht=scontent.fbkk29-1.fna&oh=03_AdQ_R6KNn2faUyfyRtc18VjLYKw7EcpeVtYSnbAF2s6lZA&oe=652B66D6"},
+{name:'Magokoro', price : 80, img :"https://scontent.fbkk29-7.fna.fbcdn.net/v/t1.15752-9/377111785_1339367633347083_3574772074408336870_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEiUny7SlTjBV9wpjMiWebQh9bVXy15EXyH1tVfLXkRfHyoMmsXo8kGcSLvFaufreNxUA_6f5n_mdnsSkVxHPsq&_nc_ohc=KsjRjysL9nsAX-Y5jqs&_nc_ht=scontent.fbkk29-7.fna&oh=03_AdRNJw0VETJKgGy936AIVrYwoTzMnyVJGGuZSEjsUhCVBQ&oe=652B817C"},
+{name:'Lamour_cafe ' , price : 40, img :"https://scontent.fbkk29-4.fna.fbcdn.net/v/t1.15752-9/377113579_286453554105734_2740157576139878377_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGTxSUUpiVnjh_n9788qr3_REIKqf7T13ZEQgqp_tPXdtvRx-CzBbCuTEiQU3wDPQbrFaEkbG8SdfMpNaaVvq5u&_nc_ohc=fkeycpzNbk8AX_Kk9g6&_nc_ht=scontent.fbkk29-4.fna&oh=03_AdSYnjLvlNdTRlTb25PpazOlbbh-bVGifvs4TV1ttN6TkQ&oe=652B6F86"},
+{name:'Yelloo ' , price : 80, img :"https://scontent.fbkk29-9.fna.fbcdn.net/v/t1.15752-9/377103131_269131706010484_3225449887128122862_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEYnD4Uw_I3dXb6llRsWFOwJFPhKVAtN2IkU-EpUC03Yv2k6VduBoSz_f05EmmScUFVPikuhBDIxKQaN4sMKeYb&_nc_ohc=y-nn36faOgIAX-BjQdc&_nc_ht=scontent.fbkk29-9.fna&oh=03_AdTn3kI-5GO3TxwEUL2EKraH8MwD7LbbL6qLZFVXRsyVXg&oe=652B860B"}
 ]);
 
 //เก็บ list การจอง 
